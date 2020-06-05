@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './Header';
 import Content from './Content';
 import Footer from './Footer';
+import mapService from './services/map-service';
 import './App.css';
 
 interface AppState{
@@ -41,7 +42,7 @@ class App extends React.Component<{},AppState> {
     
   }
 
-  toggleArticle = (id: number, completed: boolean)=> {
+  toggleArticle = (id: number)=> {
   
   }
 

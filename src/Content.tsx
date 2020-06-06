@@ -1,5 +1,5 @@
 import React from 'react';
-import Map from './Map';
+import FindAddressContainer from './FindAddressContainer';
 
 interface location{
     lat : number
@@ -28,6 +28,7 @@ export default function Content () {
                 }
                 }
             />  */}
+            <FindAddressContainer/>
         </div>
     );
 }

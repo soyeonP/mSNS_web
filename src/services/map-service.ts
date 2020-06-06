@@ -1,7 +1,7 @@
 const ENDPOINT = '';// server adress
 
 class mapService{
-
+    
     getAll(){
 
     }

@@ -16,14 +16,6 @@ class FindAddressContainer extends Component {
     //     super(props);
     //     this.onScriptLoad = this.onScriptLoad.bind(this);
     //   }
-    
-    //   onScriptLoad() {
-    //     const map = new window.google.maps.Map(
-    //       document.getElementById(this.props.id),
-    //       this.props.options
-    //     );
-    //     this.props.onMapLoad(map);
-    //   }
 
     // componentDidMount() {
     //     if (!window.google) {
